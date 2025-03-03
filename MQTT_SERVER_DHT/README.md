@@ -1,5 +1,6 @@
 # ESP32 MQTT Temperature and LED Control
-
+## Author
+Developed by Ivanperezp
 ## Overview
 This project uses an ESP32 to connect to a WiFi network and communicate with an MQTT broker. The ESP32 reads temperature data from a DHT22 sensor and publishes it to an MQTT topic. Additionally, it listens for commands to control LED indicators on a TFT display.
 
@@ -161,6 +162,5 @@ This function ensures that the ESP32 stays connected to the MQTT broker and publ
 - **MQTT Connection Fails:** Ensure the broker is running and reachable.
 - **No Temperature Data Published:** Verify DHT22 sensor connections.
 
-## Author
-Developed by Ivanperezp
-For educational and IoT development purposes.
+
+
